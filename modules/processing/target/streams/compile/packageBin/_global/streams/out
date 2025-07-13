@@ -1,0 +1,25 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging C:\Users\ninag\OneDrive\Documents\M1\scala_project\modules\processing\target\scala-2.13\processing_2.13-0.1.0-SNAPSHOT.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\ninag\OneDrive\Documents\M1\scala_project\modules\processing\target\scala-2.13\classes\com[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com\example[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\ninag\OneDrive\Documents\M1\scala_project\modules\processing\target\scala-2.13\classes\com\example[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com\example\processing[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\ninag\OneDrive\Documents\M1\scala_project\modules\processing\target\scala-2.13\classes\com\example\processing[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com\example\processing\WeatherProcessor$$anonfun$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\ninag\OneDrive\Documents\M1\scala_project\modules\processing\target\scala-2.13\classes\com\example\processing\WeatherProcessor$$anonfun$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com\example\processing\WeatherProcessor$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\ninag\OneDrive\Documents\M1\scala_project\modules\processing\target\scala-2.13\classes\com\example\processing\WeatherProcessor$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com\example\processing\WeatherProcessor$anon$importedDecoder$macro$27$1$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\ninag\OneDrive\Documents\M1\scala_project\modules\processing\target\scala-2.13\classes\com\example\processing\WeatherProcessor$anon$importedDecoder$macro$27$1$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com\example\processing\WeatherProcessor$anon$importedDecoder$macro$27$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\ninag\OneDrive\Documents\M1\scala_project\modules\processing\target\scala-2.13\classes\com\example\processing\WeatherProcessor$anon$importedDecoder$macro$27$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com\example\processing\WeatherProcessor$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\ninag\OneDrive\Documents\M1\scala_project\modules\processing\target\scala-2.13\classes\com\example\processing\WeatherProcessor$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com\example\processing\WeatherProcessor$TimedReading$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\ninag\OneDrive\Documents\M1\scala_project\modules\processing\target\scala-2.13\classes\com\example\processing\WeatherProcessor$TimedReading$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com\example\processing\WeatherProcessor$TimedReading.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\ninag\OneDrive\Documents\M1\scala_project\modules\processing\target\scala-2.13\classes\com\example\processing\WeatherProcessor$TimedReading.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com\example\processing\WeatherProcessor.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\ninag\OneDrive\Documents\M1\scala_project\modules\processing\target\scala-2.13\classes\com\example\processing\WeatherProcessor.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m

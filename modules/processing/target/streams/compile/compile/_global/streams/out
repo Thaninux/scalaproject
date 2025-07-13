@@ -1,0 +1,24 @@
+[0m[[0m[31merror[0m] [0m[0mC:\Users\ninag\OneDrive\Documents\M1\scala_project\modules\processing\src\main\scala\com\example\processing\WeatherProcessor.scala:10:8: not found: object spray[0m
+[0m[[0m[31merror[0m] [0m[0mimport spray.json._[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\ninag\OneDrive\Documents\M1\scala_project\modules\processing\src\main\scala\com\example\processing\WeatherProcessor.scala:34:46: value temp is not a member of com.example.common.WeatherReading[0m
+[0m[[0m[31merror[0m] [0m[0m      TimedReading(wr.city, wr.timestamp, wr.temp)[0m
+[0m[[0m[31merror[0m] [0m[0m                                             ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\ninag\OneDrive\Documents\M1\scala_project\modules\processing\src\main\scala\com\example\processing\WeatherProcessor.scala:46:20: value temperature is not a member of com.example.processing.WeatherProcessor.TimedReading[0m
+[0m[[0m[31merror[0m] [0m[0m    .filter(r => r.temperature > -50 && r.temperature < 60) // sanity filter[0m
+[0m[[0m[31merror[0m] [0m[0m                   ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\ninag\OneDrive\Documents\M1\scala_project\modules\processing\src\main\scala\com\example\processing\WeatherProcessor.scala:46:43: value temperature is not a member of com.example.processing.WeatherProcessor.TimedReading[0m
+[0m[[0m[31merror[0m] [0m[0m    .filter(r => r.temperature > -50 && r.temperature < 60) // sanity filter[0m
+[0m[[0m[31merror[0m] [0m[0m                                          ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\ninag\OneDrive\Documents\M1\scala_project\modules\processing\src\main\scala\com\example\processing\WeatherProcessor.scala:57:82: overloaded method apply with alternatives:[0m
+[0m[[0m[31merror[0m] [0m[0m  (bd: java.math.BigDecimal)scala.math.BigDecimal <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (x: scala.math.BigInt)scala.math.BigDecimal <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (x: String)scala.math.BigDecimal <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (x: Array[Char])scala.math.BigDecimal <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (d: Double)scala.math.BigDecimal <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (l: Long)scala.math.BigDecimal <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (i: Int)scala.math.BigDecimal[0m
+[0m[[0m[31merror[0m] [0m[0m cannot be applied to (Any)[0m
+[0m[[0m[31merror[0m] [0m[0m        println(s" Windowed Avg Temp - City: $city | Count: $count | Avg Temp: ${BigDecimal(avgTemp).setScale(2, BigDecimal.RoundingMode.HALF_UP)} °C")[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m5 errors found[0m

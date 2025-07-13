@@ -1,0 +1,10 @@
+[0m[[0m[31merror[0m] [0m[0mC:\Users\ninag\OneDrive\Documents\M1\scala_project\modules\storage\src\main\scala\com\example\storage\MongoWriter.scala:3:20: object common is not a member of package com.example[0m
+[0m[[0m[31merror[0m] [0m[0mimport com.example.common.WeatherAggregate[0m
+[0m[[0m[31merror[0m] [0m[0m                   ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\ninag\OneDrive\Documents\M1\scala_project\modules\storage\src\main\scala\com\example\storage\MongoWriter.scala:12:46: value client is not a member of object com.example.storage.MongoClientProvider[0m
+[0m[[0m[31merror[0m] [0m[0m  private val database = MongoClientProvider.client.getDatabase("weather-db")[0m
+[0m[[0m[31merror[0m] [0m[0m                                             ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\ninag\OneDrive\Documents\M1\scala_project\modules\storage\src\main\scala\com\example\storage\MongoWriter.scala:15:33: not found: type WeatherAggregate[0m
+[0m[[0m[31merror[0m] [0m[0m  def writeAggregate(aggregate: WeatherAggregate): Unit = {[0m
+[0m[[0m[31merror[0m] [0m[0m                                ^[0m
+[0m[[0m[31merror[0m] [0m[0mthree errors found[0m

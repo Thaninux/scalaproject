@@ -1,0 +1,4 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(project ingestion, Some(cdea1f8e-3233-458f-9b9d-6d8cea30f46e), Some(CommandSource(console0)))[0m
+[0m[[0m[0minfo[0m] [0m[0mset current project to ingestion (in build file:/C:/Users/ninag/OneDrive/Documents/M1/scala_project/)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[31merror[0m] [0m[0mserver failed to start on local:sbt-server-d83ef461e49961e72290. java.io.IOException: Could not create lock for \\.\pipe\sbt-server-d83ef461e49961e72290_lock, error 5[0m

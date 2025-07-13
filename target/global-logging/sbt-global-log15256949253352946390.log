@@ -1,0 +1,3 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(project ingestion, Some(71148c0e-d5ce-40ba-9eb7-6e9516616c38), Some(CommandSource(console0)))[0m
+[0m[[0m[0minfo[0m] [0m[0mset current project to ingestion (in build file:/C:/Users/ninag/OneDrive/Documents/M1/scala_project/)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

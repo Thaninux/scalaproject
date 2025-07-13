@@ -1,0 +1,32 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(run, Some(41cb5c4c-0a6b-4385-8af2-feefbb87346c), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / run[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\ninag\OneDrive\Documents\M1\scala_project\modules\processing\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\ninag\OneDrive\Documents\M1\scala_project\modules\processing\src\main\scala\com\example\processing\WeatherProcessor.scala:10:8: not found: object spray[0m
+[0m[[0m[31merror[0m] [0m[0mimport spray.json._[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\ninag\OneDrive\Documents\M1\scala_project\modules\processing\src\main\scala\com\example\processing\WeatherProcessor.scala:34:46: value temp is not a member of com.example.common.WeatherReading[0m
+[0m[[0m[31merror[0m] [0m[0m      TimedReading(wr.city, wr.timestamp, wr.temp)[0m
+[0m[[0m[31merror[0m] [0m[0m                                             ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\ninag\OneDrive\Documents\M1\scala_project\modules\processing\src\main\scala\com\example\processing\WeatherProcessor.scala:46:20: value temperature is not a member of com.example.processing.WeatherProcessor.TimedReading[0m
+[0m[[0m[31merror[0m] [0m[0m    .filter(r => r.temperature > -50 && r.temperature < 60) // sanity filter[0m
+[0m[[0m[31merror[0m] [0m[0m                   ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\ninag\OneDrive\Documents\M1\scala_project\modules\processing\src\main\scala\com\example\processing\WeatherProcessor.scala:46:43: value temperature is not a member of com.example.processing.WeatherProcessor.TimedReading[0m
+[0m[[0m[31merror[0m] [0m[0m    .filter(r => r.temperature > -50 && r.temperature < 60) // sanity filter[0m
+[0m[[0m[31merror[0m] [0m[0m                                          ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\ninag\OneDrive\Documents\M1\scala_project\modules\processing\src\main\scala\com\example\processing\WeatherProcessor.scala:57:82: overloaded method apply with alternatives:[0m
+[0m[[0m[31merror[0m] [0m[0m  (bd: java.math.BigDecimal)scala.math.BigDecimal <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (x: scala.math.BigInt)scala.math.BigDecimal <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (x: String)scala.math.BigDecimal <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (x: Array[Char])scala.math.BigDecimal <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (d: Double)scala.math.BigDecimal <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (l: Long)scala.math.BigDecimal <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (i: Int)scala.math.BigDecimal[0m
+[0m[[0m[31merror[0m] [0m[0m cannot be applied to (Any)[0m
+[0m[[0m[31merror[0m] [0m[0m        println(s" Windowed Avg Temp - City: $city | Count: $count | Avg Temp: ${BigDecimal(avgTemp).setScale(2, BigDecimal.RoundingMode.HALF_UP)} °C")[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m5 errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 1 s, completed 14 juil. 2025, 00:27:32[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[31merror[0m] [0m[0mserver failed to start on local:sbt-server-d83ef461e49961e72290. java.io.IOException: Could not create lock for \\.\pipe\sbt-server-d83ef461e49961e72290_lock, error 5[0m
